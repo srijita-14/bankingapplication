@@ -1,10 +1,35 @@
 body {
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 65px;
+  padding-right: 65px;
+  font-style: bold;
+  font: italic;
+  background-image: url("photo.jpg");
+  image-resolution: 100;
+  background-repeat: no-repeat;
+  list-style-image: cross-fade(scroll);
+  background-attachment: scroll;
+  background-color: transparent;
+  background-size: cover;
+  backdrop-filter: blur (500px);
+  text-decoration-color: rgb(19, 2, 51);
+  color:rgb(30, 7, 85);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: rgba(63, 63, 170, 0.952);
+}
+Button{
+color: rgba(11, 10, 56, 0.76);
+background-color: rgb(193, 205, 230);
+}
+table,th,td{
+  justify-content: center;
+  border: 1px transparent rgba(16, 10, 99, 0.427);
+  border-collapse: collapse;
+  padding: 5px;
 }
 
 code {
